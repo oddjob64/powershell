@@ -1,4 +1,4 @@
-﻿#######################################################################################
+#######################################################################################
 # Script    : Install_AdobeReader.ps1
 # Name      : Tyler Billings
 # Date      : 20 August 2019
@@ -8,10 +8,21 @@
 #############################
 
 # Check execution policies
-$exePolicy = Get-ExecutionPolicy -List 
-$remSigned = Get-ExecutionPolicy RemoteSigned
+$Policy = Get-ExecutionPolicy 
 
-if ($exePolicy -eq $True) {
+If ($Policy -eq "RemoteSigned") {
+
+    Write-Host "Set Execution Policies to RemoteSigned"
+    Set-ExecutionPolicy RemoteSigned
+}
+
+
+Else {
+
+    Write-Host "Execution Policies have been set."
+}
+
+If ($remSigned -eq $True) {
     Write-Host "Set Execution Policies to run script"
     Set-ExecutionPolicy RemoteSigned
 }
@@ -23,7 +34,7 @@ If (Test-Path -Path $workdir -PathType Container)
     Write-Host "$workdir already exists" -ForegroundColor Red
 }
 
-else {
+Else {
 
     New-Item -Path $workdir -ItemType Directory 
 }
