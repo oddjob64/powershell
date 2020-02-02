@@ -1,0 +1,22 @@
+<Configuration>
+
+  <Add SourcePath="\\fs\itdeptfs1\" OfficeClientEdition="64" Branch="Current">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="InfoPath" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Project" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="SharePointDesigner" />
+      <ExcludeApp ID="Visio" />
+    </Product>
+  </Add>
+
+  <Updates Enabled="TRUE" UpdatePath="\\billingsutility.com\Software\Office2016\x64\" Branch="Current" />
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Logging Level="Standard" Path="\\billingsutility.com\Software\Office2016\x64\" /> 
+
+</Configuration>
