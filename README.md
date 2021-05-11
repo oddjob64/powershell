@@ -1,6 +1,2 @@
 # powershell
-What if you want to learn how to write code but hate programming? Where should you start? My immediate answer is Python, PHP, or JavaScript! Yes, Python is probably the best option for beginners but if you need to automatate tasks within a windows enviorment, learn PowerShell! If its Linux, learn Bash! Why?? Task automation. My last class at Alfred State before taking a hiatus was Network Administration. By far the BEST class EVER! I enjoyed the lectures and the labs. Our group's final assignment was to deploy active directory enviorment. Thank GOD for PowerShell! When all was said and one, we deployed each component of our server using powershell. Although not recommended, our DC ran several server feautures: AD Domain Services, DNS, DHCP, ADFS, iSCSI, File Services, Print Server, Web ISS, Certificate Authority, WDS, and Remote Desktop Connection. Truth be told, it all worked great! I installed and configured each component using PowerShell. I had written a collection of scripts that automated various administrative tasks.
-
-Whether its help desk, system adminisration, security, or even programming, PowerShell is a very useful tool. 
-
-Feel free to dig deep and have fun! I will be adding more soon. Stay posted for additional Office365 scripts - Module Installation, Connection, Exchange, Licenses, Teams, Security and Compliance, Skype, and SharePoint. Hope to include DSC, NANO, HYPER-V, Clusters, and Load Balancing. 
+W
